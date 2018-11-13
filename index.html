@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <title>ING</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <div class="contenedor1">
+        <div id="tratamiento"><h4 id="texto-fila1">Tratamiento: *</h4>
+        <input type="radio" name="trat"> Sr.
+        <input type="radio" name="trat"> Sra.</div>
+        <h4 class="texto-fila1">Tipo Doc: *</h4>
+        <select class="fila1">
+            <option value="DNI">DNI</option>
+            <option value="NIF">NIF</option>
+        </select>
+        <h4 class="texto-fila1">País de nacimiento: *</h4>
+        <select class="fila1">
+            <option value="ESPAÑA">ESPAÑA</option>
+            <option value="PORTUGAL">PORTUGAL</option>
+            <option value="ITALIA">ITALIA</option>
+            <option value="FRANCIA">FRANCIA</option>
+            <option value="ALEMANIA">ALEMANIA</option>
+        </select>
+        <h4 class="texto-fila1">Trabajo*</h4>
+        <select class="fila1">
+            <option value="">Opción1</option>
+            <option value="">Opción1</option>
+            <option value="">Opción1</option>
+        </select>
+        <h4 class="texto-fila1">Propósito de la cuenta: *</h4>
+        <select class="fila1">
+            <option value="a">Ahorro</option>
+            <option value="n">Nómina</option>
+            <option value="ns">Ahorro</option>
+        </select>
+        <h4 class="texto-fila2">Nombre: *</h4>
+        <input type="text" class="fila2">
+        <h4 class="texto-fila2">Nº Doc: *</h4>
+        <input type="number" maxlength="20" class="fila2">
+        <h4 class="texto-fila2">Nacionalidad: *</h4>
+        <select class="fila2">
+                <option value="ESPAÑA">ESPAÑA</option>
+                <option value="PORTUGAL">PORTUGAL</option>
+                <option value="ITALIA">ITALIA</option>
+                <option value="FRANCIA">FRANCIA</option>
+                <option value="ALEMANIA">ALEMANIA</option>
+            </select>
+            <h4 class="texto-fila2">Tipo de actividad: *</h4>
+        <select class="fila2">
+            <option value="th">Tareas de hogar</option>
+            <option value="Estudiante">Estudiante</option>
+            <option value="Desempleado">Desempleado</option>
+            <option value="Jubilado">Jubilado</option>
+            <option value="Pensionista">Pensionista</option>
+        </select>
+        <h4 class="texto-fila2">Origen de sus ahorros: *</h4>
+        <select class="fila2">
+            <option value="">Nómina o pensión</option>
+            <option value="idk">Nómina</option>
+            <option value="idk2">Pensión</option>
+        </select>
+        <h4 class="texto-fila3">Apellido 1: *</h4>
+        <input type="text" class="fila3">
+        <h4 class="texto-fila3">Fecha de nacimiento: *</h4>
+        <input type="date" class="fila3"><br>
+        <h4 class="texto-fila3">Segunda nacionalidad:</h4>
+        <select class="fila3">
+                <option value="ESPAÑA">ESPAÑA</option>
+                <option value="PORTUGAL">PORTUGAL</option>
+                <option value="ITALIA">ITALIA</option>
+                <option value="FRANCIA">FRANCIA</option>
+                <option value="ALEMANIA">ALEMANIA</option>
+        </select>
+        <h4 class="texto-fila3">Sector profesional*</h4>
+        <select class="fila3">
+            <option value="nt">No trabaja</option>
+            <option value="">Banca</option>
+            <option value="">Construcción</option>
+            <option value="">Energía</option>
+            <option value="">Industria</option>
+            <option value=""> Recursos humanos,</option>
+            <option value="">Servicios</option>
+        </select>
+        <h4 class="texto-fila4">Apellido 2:</h4>
+        <input type="text" class="fila4"> <br>
+        <h4 class="texto-fila4e">País residencia fiscal: *</h4>
+        <select class="fila4e">
+                <option value="ESPAÑA">ESPAÑA</option>
+                <option value="PORTUGAL">PORTUGAL</option>
+                <option value="ITALIA">ITALIA</option>
+                <option value="FRANCIA">FRANCIA</option>
+                <option value="ALEMANIA">ALEMANIA</option>
+            </select> <br>
+        <h4 class="texto-fila4e">Empresa: *</h4>
+        <input type="text" class="fila4e"> <br>
+    </div>
+        <div class="contenedor2">
+            Tipo de vía
+            <select name="" id="">
+                <option value="">CALLE</option>
+                <option value="">VÍA</option>
+                <option value="">PLAZA</option>
+                <option value="">AVENIDA</option>
+                <option value="">URBANIZACIÓN</option>
+            </select>
+            Dirección*
+            <input type="text">
+            Número*
+            <input type="number">
+            Piso
+            <input type="number"> <br>
+            Urb./Pol./Otros
+            <input type="text">
+            Localidad*
+            <input type="text">
+            Provincia*
+            <select name="" id="">
+                    <option value="">Valencia</option>
+                    <option value="">Valencia</option>
+                    <option value="">Valencia</option>
+                    <option value="">Valencia</option>
+                </select>
+                Código Postal*
+            <input type="number" minlength="5" maxlength="5"> <br>
+            Teléfono móvil: *
+            <input type="tel">
+            Teléfono particular:
+            <input type="tel">
+            Dirección de e-mail:*
+            <input type="email">
+        </div>
+    </form>
+</body>
+</html>

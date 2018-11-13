@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    position: absolute;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #D3D3D3;
+}
+.contenedor1{
+    padding: 12px;
+}
+.contenedor2{
+    position: relative;
+    height: 46.5%;
+    bottom: 635px;
+    padding: 12px;
+    margin: 12px;
+    background: gainsboro;
+}
+.fila1{
+    position: relative;
+    width: 170px;
+    padding: 2px 5px;
+    margin-bottom: 15px;
+    color: grey;
+    top: 15px;
+    border: 1px solid #D3D3D3;
+}
+.texto-fila1{
+    position: relative;
+    top: 15px;
+}
+.fila2{
+    position: relative;
+    left: 26%;
+    bottom: 250px;
+    width: 170px;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+    border: 1px solid #D3D3D3;
+}
+.texto-fila2{
+    position: relative;
+    left: 26%;
+    bottom: 250px;
+}
+.fila3{
+    position: relative;
+    bottom: 516px;
+    width: 170px;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+    border: 1px solid #D3D3D3;
+    left: 380px;
+}
+.texto-fila3{
+    position: relative;
+    bottom: 516px;
+    left: 380px;
+}
+.fila4{
+    position: relative;
+    bottom: 730px;
+    left: 570px;
+    border: 1px solid #D3D3D3;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+}
+.texto-fila4{
+    position: relative;
+    bottom: 730px;
+    left: 570px;
+}
+.fila4e{
+    position: relative;
+    bottom: 675px;
+    left: 570px;
+    border: 1px solid #D3D3D3;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+}
+.texto-fila4e{
+    position: relative;
+    bottom: 675px;
+    left: 570px;
+}
+.texto-fila1, .texto-fila2, .texto-fila3, .texto-fila4, .texto-fila4e{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #303030;
+    max-width: 160px;
+}
+#tratamiento{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #303030;
+    max-width: 160px;
+}
+#tratamiento>h4{
+    color: #303030;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+select{
+    color: grey;
+    background: gainsboro;
+}
