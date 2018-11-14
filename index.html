@@ -84,7 +84,7 @@
             <option value="">Construcción</option>
             <option value="">Energía</option>
             <option value="">Industria</option>
-            <option value=""> Recursos humanos,</option>
+            <option value=""> Recursos humanos</option>
             <option value="">Servicios</option>
         </select>
         <h4 class="texto-fila4">Apellido 2:</h4>
@@ -101,39 +101,55 @@
         <input type="text" class="fila4e"> <br>
     </div>
         <div class="contenedor2">
-            Tipo de vía
-            <select name="" id="">
+            <font class="texto-fila1b">Tipo de vía</font>
+            <select  class="fila1b">
                 <option value="">CALLE</option>
                 <option value="">VÍA</option>
                 <option value="">PLAZA</option>
                 <option value="">AVENIDA</option>
                 <option value="">URBANIZACIÓN</option>
             </select>
-            Dirección*
-            <input type="text">
-            Número*
-            <input type="number">
-            Piso
-            <input type="number"> <br>
-            Urb./Pol./Otros
-            <input type="text">
-            Localidad*
-            <input type="text">
-            Provincia*
-            <select name="" id="">
+                <font class="texto-fila1b">Urb./Pol./Otros</font>
+            <input type="text" class="fila1b">
+               <font class="texto-fila1b">Teléfono móvil: *</font>
+            <input type="tel" class="fila1b">
+                <font class="texto-fila2b">Dirección*</font>
+            <input type="text" class="fila2b" style="width: 365px;" maxlength="60">
+               <font class="texto-fila2b">Localidad*</font>
+            <input type="text" class="fila2b">
+            <font class="texto-fila2b">Teléfono particular:</font>
+            <input type="tel" class="fila2b">
+               <font class="texto-fila3b">Provincia*</font>
+            <select class="fila3b">
                     <option value="">Valencia</option>
                     <option value="">Valencia</option>
                     <option value="">Valencia</option>
                     <option value="">Valencia</option>
                 </select>
-                Código Postal*
-            <input type="number" minlength="5" maxlength="5"> <br>
-            Teléfono móvil: *
-            <input type="tel">
-            Teléfono particular:
-            <input type="tel">
-            Dirección de e-mail:*
-            <input type="email">
+                <font class="texto-fila3b">Dirección de e-mail:*</font>
+            <input type="email" class="fila3b" style="width: 365px;" maxlength="60">
+                <font class="texto-filaN">Número*</font>
+            <input type="number" class="numero">
+                <font class="texto-filaP">Piso</font>
+            <input type="number" class="piso"> <br>
+                <font class="texto-fila4b">Código Postal*</font>
+            <input type="number" minlength="5" maxlength="5" class="fila4b"> <br>
+        </div>
+        <div class="contenedor3">
+        <hr class="linea1"></hr>
+        <p class="p1">Para ofrecerte un mejor servicio nos sería útil conocer si posee en otra entidad: </p>
+    <input type="checkbox"><label>Plan de pensiones</label>
+    <input type="checkbox"> <label>Fondos</label>
+    <input type="checkbox"> <label>Acciones</label>
+    <input type="checkbox"> <label>Hipoteca</label>
+    <input type="checkbox"> <label>Préstamo</label>
+    <input type="checkbox"> <label>Seguro de vida</label>
+        <hr class="linea2"></hr>
+        <p class="p2">Puede consultar en nuestra Web o solicitarnos toda la <a href="#">Información Precontractual</a> de nuestros productos. Al pulsar "Continuar" está aceptando la <a href="#">Cláusula de Protección de datos</a></p>
+        <label style="font-size: 12px;
+    font-weight: lighter;
+    color: grey; position: relative; bottom: 600px;">(*) Los campos marcados con asterisco son obligatorios.</label>
+       <input type="submit" value="Continuar">
         </div>
     </form>
 </body>

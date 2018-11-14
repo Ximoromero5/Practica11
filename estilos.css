@@ -7,7 +7,8 @@ body{
 }
 form{
     position: absolute;
-    height: 600px;
+    width: 802px;
+    height: 640px;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -18,11 +19,11 @@ form{
 }
 .contenedor2{
     position: relative;
-    height: 46.5%;
+    height: 25%;
     bottom: 635px;
     padding: 12px;
     margin: 12px;
-    background: gainsboro;
+    background: #EDEDED;
 }
 .fila1{
     position: relative;
@@ -58,30 +59,31 @@ form{
     padding: 2px 0px;
     margin-bottom: 15px;
     border: 1px solid #D3D3D3;
-    left: 380px;
+    left: 400px;
 }
 .texto-fila3{
     position: relative;
     bottom: 516px;
-    left: 380px;
+    left: 400px;
 }
 .fila4{
     position: relative;
     bottom: 730px;
-    left: 570px;
+    left: 595px;
     border: 1px solid #D3D3D3;
-    padding: 2px 0px;
+    padding: 2px 5px;
     margin-bottom: 15px;
 }
 .texto-fila4{
     position: relative;
     bottom: 730px;
-    left: 570px;
+    left: 595px;
 }
 .fila4e{
     position: relative;
     bottom: 675px;
-    left: 570px;
+    left: 595px;
+    width: 170px;
     border: 1px solid #D3D3D3;
     padding: 2px 0px;
     margin-bottom: 15px;
@@ -89,7 +91,7 @@ form{
 .texto-fila4e{
     position: relative;
     bottom: 675px;
-    left: 570px;
+    left: 595px;
 }
 .texto-fila1, .texto-fila2, .texto-fila3, .texto-fila4, .texto-fila4e{
     font-size: 13px;
@@ -110,5 +112,134 @@ form{
 }
 select{
     color: grey;
-    background: gainsboro;
+    background: #ededed;
+}
+.texto-fila1b, .texto-fila2b, .texto-fila3b, .texto-fila4b, .texto-filaN, .texto-filaP{
+    display: block;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #303030;
+    max-width: 160px;
+}
+.fila1b{
+    position: relative;
+    width: 170px;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+    color: grey;
+    border: 1px solid #D3D3D3;
+}
+.fila2b{
+    position: relative;
+    width: 170px;
+    left: 190px;
+    bottom: 156px;
+    display: block;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+    color: grey;
+    border: 1px solid #D3D3D3;
+}
+.texto-fila2b{
+    position: relative;
+    left: 190px;
+    bottom: 156px;
+}
+.fila3b{
+    position: relative;
+    width: 170px;
+    left: 385px;
+    bottom: 262px;
+    display: block;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+    color: grey;
+    border: 1px solid #D3D3D3;
+}
+.texto-fila3b{
+    position: relative;
+    left: 385px;
+    bottom: 262px;
+}
+.fila4b{
+    position: relative;
+    width: 170px;
+    left: 580px;
+    bottom: 473px;
+    display: block;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+    color: grey;
+    border: 1px solid #D3D3D3;
+}
+.texto-fila4b{
+    position: relative;
+    left: 580px;
+    bottom: 473px;
+}
+.numero, .piso{
+    position: relative;
+    left: 580px;
+    bottom: 420px;
+    width: 75px;
+    padding: 2px 0px;
+    margin-bottom: 15px;
+    border: 1px solid #D3D3D3;
+}
+.piso{
+    position: relative;
+    bottom: 472px;
+    left: 675px;
+}
+.texto-filaN{
+    position: relative;
+    left: 580px;
+    bottom: 420px;
+}
+.texto-filaP{
+    position: relative;
+    bottom: 472px;
+    left: 675px;
+}
+.linea1, .linea2{
+    width: 96%;
+    height: 1px;
+    position: relative;
+    bottom: 630px;
+    margin-left: 15px;
+}
+.p1, .contenedor3>input[type="checkbox"], .contenedor3>label{
+    position: relative;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #303030;
+    bottom: 620px;
+    left: 15px;
+}
+.p2{
+    font-size: 12px;
+    font-weight: lighter;
+    color: grey;
+    max-width: 400px;
+    position: relative;
+    left: 15px;
+    bottom: 600px;
+}
+.p2>a{
+    color: grey;
+}
+.linea2{
+    position: relative;
+    bottom: 610px;
+}
+input[type="submit"]{
+    padding: 10px 36px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background: #E66601;
+    cursor: pointer;
+    position: relative;
+    bottom: 625px;
+    left: 240px;
 }
